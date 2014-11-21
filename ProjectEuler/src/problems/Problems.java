@@ -153,6 +153,28 @@ public class Problems {
 		System.out.println("Greatest Product: " + greatest);
 	}
 	
-//	bjfkjfhkjdsahfkj
+	public void problem9() {
+		int n = 1000;
+		double c = 0;
+		boolean flag = false;
+		
+		for (int b = 4; b<= n;b++) {
+			for (int a=3; a<b; a++) {
+				int csq = a*a + b*b;
+				c = Math.sqrt(csq);
+				if(c%1 == 0.0) {
+					int sum = (a + b + (int)c);
+					if( sum == 1000) {
+						System.out.println(a + " " + b + " " + c);
+						System.out.println("Product: " + a*b*c);
+						flag = true;
+						break;
+					}
+				}
+			}
+			if(flag)
+				break;
+		}
+	}
 }
 

@@ -12,8 +12,8 @@ public class Euler {
 //		problem.problem5();
 //		problem.problem6();
 //		problem.problem7();
-		problem.problem8();
-//hbhbh
+//		problem.problem8();
+		problem.problem9();
 	}
 
 	
